@@ -1,0 +1,183 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #000000;
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana; 
+	width: 100%;
+	height: 100%;
+}
+
+body p {
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.button {
+	font-size: 20px;
+}
+
+.top {
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	min-height: 25%;
+	position: relative;
+}
+
+.top .time {
+	font-size: 120px;
+	margin-left: 80px;
+}
+
+.top .button {
+	float: right;
+	width: 80px;
+	font-size: 20px;
+}
+
+.top .button p {
+	margin: 10px;
+}
+
+.center {
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	position: relative;
+}
+
+.center .logo {
+	height: 100%;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+
+.center .logo img{
+	width: 103%;
+}
+
+.center .points {
+	font-size: 220px;
+	height: 100%;
+	width: 90%;
+}
+
+.left {
+	float: left;
+	width: 35%;
+	height: 100%;
+}
+
+.right {
+	float: right;
+	width: 35%;
+	height: 100%;
+}
+
+.center .left {
+	background: white;
+}
+
+.center .right {
+	background: #8888ff;
+}
+
+.center .button {
+	height: 100%;
+	width: 10%;	
+}
+
+.center .left .button {
+	float: left;
+}
+
+.center .right .button {
+	float: right;
+}
+
+.center .button p {
+	margin-top: 20px;
+}
+
+.bottom {
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+}
+
+.bottom .left {
+	width: 49%;
+}
+.bottom .right {
+	width: 49%;
+}
+
+.bottom .advantages {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: yellow;
+	font-size: 20px;
+	text-align: center;
+}
+
+.bottom .penalties {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	font-size: 20px;
+	text-align: center;
+}
+
+.bottom .button {
+	width: 12%;
+	float: right;
+	height: 100%;
+}
+
+.bottom .button p {
+	margin-top: 40px;
+}
+.bottom .text {
+	float: left;
+	height: 100%;
+	width: 76%;
+	margin-left: 12%;
+}
+
+.bottom .text p {
+	margin-bottom: 0px;
+	float: none;
+	width: auto;
+	cursor: default;
+}
+
+.bottom .text p.zahl {
+	font-size: 100px;
+	margin: 0px;
+}
+
+.bottom p.reset {
+	position: absolute;
+	font-size: 20px;
+	width: auto;
+	float: none;
+	height: auto;
+	margin-top: 20px;
+}
